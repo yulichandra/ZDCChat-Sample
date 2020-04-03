@@ -17,6 +17,7 @@
 		D5B5FB9224379C3500FFF4B0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5B5FB9124379C3500FFF4B0 /* ViewController.xib */; };
 		D5B5FB9A2437AACC00FFF4B0 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B5FB992437AACC00FFF4B0 /* Environment.swift */; };
 		D5B5FB9C2437AB5B00FFF4B0 /* Environment+Zendesk.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B5FB9B2437AB5B00FFF4B0 /* Environment+Zendesk.swift */; };
+		D5B5FBA02437ADAF00FFF4B0 /* ZDCChatStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D5B5FB9F2437ADAF00FFF4B0 /* ZDCChatStrings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		D5B5FB982437AA9600FFF4B0 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		D5B5FB992437AACC00FFF4B0 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		D5B5FB9B2437AB5B00FFF4B0 /* Environment+Zendesk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Environment+Zendesk.swift"; sourceTree = "<group>"; };
+		D5B5FB9F2437ADAF00FFF4B0 /* ZDCChatStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZDCChatStrings.bundle; sourceTree = "<group>"; };
 		E901FB4D389B34DF1AF1DD3B /* Pods-Zendesk Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zendesk Sample.debug.xcconfig"; path = "Target Support Files/Pods-Zendesk Sample/Pods-Zendesk Sample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +82,7 @@
 		D5B5FB77243791CA00FFF4B0 /* Zendesk Sample */ = {
 			isa = PBXGroup;
 			children = (
+				D5B5FB9E2437AD8D00FFF4B0 /* Resources */,
 				D5B5FB78243791CA00FFF4B0 /* AppDelegate.swift */,
 				D5B5FB7C243791CA00FFF4B0 /* ViewController.swift */,
 				D5B5FB9124379C3500FFF4B0 /* ViewController.xib */,
@@ -108,6 +111,14 @@
 				D5B5FB982437AA9600FFF4B0 /* Config.xcconfig */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		D5B5FB9E2437AD8D00FFF4B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5B5FB9F2437ADAF00FFF4B0 /* ZDCChatStrings.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		FD3C4C9FB06A3E88CE2ED69F /* Frameworks */ = {
@@ -178,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5B5FBA02437ADAF00FFF4B0 /* ZDCChatStrings.bundle in Resources */,
 				D5B5FB85243791CF00FFF4B0 /* LaunchScreen.storyboard in Resources */,
 				D5B5FB9224379C3500FFF4B0 /* ViewController.xib in Resources */,
 				D5B5FB82243791CF00FFF4B0 /* Assets.xcassets in Resources */,
